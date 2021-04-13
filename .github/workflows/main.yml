@@ -35,4 +35,4 @@ jobs:
       - name: Analysing the code with pylint
         run: |
           set -euo pipefail
-          find . -name '*.py' -exec pylint {} \;
+          pyling *.py
