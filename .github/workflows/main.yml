@@ -34,4 +34,5 @@ jobs:
           pip install pylint
       - name: Analysing the code with pylint
         run: |
+          set -euo pipefail
           find . -name '*.py' -exec pylint {} \;
