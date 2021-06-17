@@ -23,7 +23,6 @@ class Hello:
         """
         do_nothing does nothing
         """
-        pass
 
 
 if __name__ == '__main__':
