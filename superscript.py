@@ -4,11 +4,28 @@
 This script does wonder
 """
 
+
+class Hello:
+    """
+    Class Hello: a class that prints things
+    """
+
+    def __init__(self, *args):
+        self.args = args
+
+    def do_print(self):
+        """
+        do_print does the printing
+        """
+        print(list(sorted(self.args)))
+
+    def do_nothing(self):
+        """
+        do_nothing does nothing
+        """
+
+
 if __name__ == '__main__':
     for _ in range(10):
-        print("Not Funny")
-
-        
-        
-        
-        print("oh this one is gonna be a looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong one")
+        h = Hello(1, 4, 6, 3, 7, 2)
+        h.do_print()
