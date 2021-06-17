@@ -1,2 +1,2 @@
 # my-super-repo
-test for jiji
+this repo is used to testing things
