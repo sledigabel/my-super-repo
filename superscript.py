@@ -20,6 +20,9 @@ class Hello:
         print(list(sorted(self.args)))
 
     def do_nothing(self):
+        """
+        do_nothing does nothing
+        """
         pass
 
 
