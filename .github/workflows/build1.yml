@@ -27,7 +27,10 @@ jobs:
       - name: Hello Actions
         uses: 2KAbhishek/GA-Hello@v1.0
       - name: Setup Go environment
-        uses: actions/setup-go@v2.1.3
+        uses: actions/setup-go@v2
+        with:
+          go-version: '^1.13.1'
+      - run: go version
       - name: Set up Python 3.8
         uses: actions/setup-python@v2
         with:
