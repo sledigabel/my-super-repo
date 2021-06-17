@@ -27,5 +27,5 @@ class Hello:
 
 if __name__ == '__main__':
     for _ in range(10):
-        h = Hello(1, 3, 6, 3, 7, 2)
+        h = Hello(1, 3, 5, 3, 7, 2)
         h.do_print()
