@@ -11,9 +11,19 @@ class Hello:
     """
 
     def __init__(self, *args):
-        print(list(sorted(args)))
+        self.args = args
+
+    def do_print(self):
+        """
+        do_print does the printing
+        """
+        print(list(sorted(self.args)))
+
+    def do_nothing(self):
+        pass
 
 
 if __name__ == '__main__':
     for _ in range(10):
-        Hello(1, 4, 6, 3, 7, 2)
+        h = Hello(1, 4, 6, 3, 7, 2)
+        h.do_print()
