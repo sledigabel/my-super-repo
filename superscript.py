@@ -28,4 +28,6 @@ class Hello:
 if __name__ == '__main__':
     for _ in range(10):
         h = Hello(1, 3, 6, 3, 7, 2)
+
+        # asd;fkljasdkl;rfjasl;djf;lasjdfl;kjsadl;kfjasdl;kjfl;askdjf;lkasdjfl;kasjdl;fjasl
         h.do_print()
